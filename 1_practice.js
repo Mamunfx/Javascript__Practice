@@ -15,3 +15,17 @@ function nextEdge(side1,side2) {
 }
 
 console.log("Next edge is : "+nextEdge(10,12));
+
+
+/// Is the number less than or equal zero :--
+
+function lessThanOrEqual(num1) {
+    if (num1<=0) {
+        return true ;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log("Is 33 less than or equal zero : "+ lessThanOrEqual(33));

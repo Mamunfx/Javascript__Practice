@@ -41,3 +41,10 @@ function points(twoPointers,threePointers) {
 console.log("Points of (3,20) : "+ points(3,20));
 
 
+/// Using the "&&" Operator :--
+
+function AND(a,b) {
+    let result_1 = a && b ? "true" : "false" ;
+    return result_1;
+ }
+ console.log("Result of true and false = "+ AND(true ,false)) ;

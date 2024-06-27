@@ -48,3 +48,16 @@ function AND(a,b) {
     return result_1;
  }
  console.log("Result of true and false = "+ AND(true ,false)) ;
+
+
+ /// Bolean to string conversion :--
+
+function boleanToString(flag) {
+    if (flag == true) {
+      return "True";
+    } else {
+      return "False";
+    }
+  }
+  
+  console.log(boleanToString(false));

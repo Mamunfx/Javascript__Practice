@@ -31,3 +31,13 @@ function lessThanOrEqual(num1) {
 
 console.log("Is 33 less than or equal zero : "+ lessThanOrEqual(33));
 
+
+/// Basketball Points :--
+
+function points(twoPointers,threePointers) {
+    return ((twoPointers*2)+(threePointers*3));
+}
+
+console.log("Points of (3,20) : "+ points(3,20));
+
+

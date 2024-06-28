@@ -64,4 +64,14 @@ function boleanToString(flag) {
   console.log(boleanToString(false));
 
 
+  /// profitable gample solution :--
+
+function profitableGamble(prob, prize, pay) {
+    if (prob * prize > pay) {
+      return true;
+    } else {
+      return false;
+    }
+  }
   
+  console.log(profitableGamble(0.2, 12, 20));

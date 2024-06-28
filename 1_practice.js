@@ -90,7 +90,7 @@ function Compare(str1, st2) {
   console.log(Compare("EUro", "CUp"));
 
 
-  /// Movie Theatre Admittance :--
+/// Movie Theatre Admittance :--
 
 function Admittance(age, Supervision) {
     if (age >= 15 && Supervision == true) {
@@ -99,4 +99,5 @@ function Admittance(age, Supervision) {
       return false;
     }
   }
-  console.log(Admittance(19, true));
+  console.log(Admittance(19, true)); 
+  

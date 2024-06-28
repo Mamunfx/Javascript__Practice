@@ -75,3 +75,16 @@ function profitableGamble(prob, prize, pay) {
   }
   
   console.log(profitableGamble(0.2, 12, 20));
+
+
+  // Compare Strings by Count of Characters :--
+
+function Compare(str1, st2) {
+    if (str1 == st2) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  console.log(Compare("EUro", "CUp"));

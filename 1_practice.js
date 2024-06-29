@@ -112,3 +112,13 @@ function ternaryMethod(boll) {
 }
 
 console.log(ternaryMethod(false));
+
+
+/// Is a string even or odd :--
+
+function stringEvenOdd(paramiterr) {
+  paramiterr = paramiterr.length % 2 == 0 ? "Even" : "Odd";
+  return paramiterr;
+}
+
+console.log(stringEvenOdd("operation"));

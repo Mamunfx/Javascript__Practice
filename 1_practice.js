@@ -124,3 +124,14 @@ function stringEvenOdd(paramiterr) {
 console.log(stringEvenOdd("operation"));
 
 
+// Leap year finder :--
+
+function leapYear(Year) {
+  if (Year % 100 === 0 ? Year % 400 === 0 : Year % 4 === 0) {
+    return "Its a leap year !";
+  } else {
+    return "Its not a leap year !";
+  }
+}
+
+console.log(leapYear(2034));

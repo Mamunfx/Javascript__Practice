@@ -101,3 +101,14 @@ function Admittance(age, Supervision) {
   }
   console.log(Admittance(19, true)); 
   
+
+
+  
+/// Using Ternary Operators :--
+
+function ternaryMethod(boll) {
+  boll = true ? "yeah" : "nope";
+  return boll;
+}
+
+console.log(ternaryMethod(false));
